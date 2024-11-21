@@ -4,15 +4,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        
+    
+        *{
+            margin: 0px;
+        }
+        .container{
+            background-color: white;
+            margin: 0px;
+        }
+        .row{
+            background-color: lightgray;
+            display: flex;
+            position: sticky;
+            top: 0px;
+            justify-content: space-between; 
+        }
+        .row1{
+            display: flex;
+            justify-content: space-around; 
+            padding: 20px;
+            height: 600px;
+            align-items: center;
+        }
+        .row2{
+            display: flex;
+            justify-content: space-around; 
+            padding: 20px;
+            height: 600px;
+            align-items: center;
+            background-color: rgb(204, 196, 196);
+        }
+        .row3{
+            display: flex;
+            justify-content: space-around; 
+            padding: 20px;
+            height: 600px;
+            align-items: center;
+            background-color:beige;
+        }
+        .row4{
+            
+            justify-content: space-around;
+            padding: 20px;
+            height: 600px;
+            align-items: center;
+            background-color:rgb(238, 225, 209);
+            
+        }
+        .row4h2{
+            margin-top: 0px;
+            text-align: center;
+            padding: 30px;
+        }
+      
+        .box1{
+            padding: 10px;
+            background-color: white;
+            color: black;
+            margin: 10px;
+            border-radius: 10px;
+            display: inline-flex;
+        }
+        li{
+            display: inline;
+            padding: 5px;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            background-color:darkgray;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .imgclass{
+            border-radius: 100px;
+        }
+        .row5{
+            display: flex;
+            justify-content: space-around; 
+            padding: 20px;
+            height: 600px;
+            align-items: center;
+            background-color: aliceblue;
+        }
+        .box{
+           
+            padding: 10px; 
+        }
+        footer{
+            text-align: center;
+            margin-top:  0px;
+            margin-bottom: 0px;
+            padding: 20px;
+            background-color: lightgrey;
+        }
+    </style>
+
+    
 </head>
 <body>
     <h1>Sarvani</h1>
+    <ol>
+    <li><a href="">Home</a></li>
+    <li><a href="">Projects</a></li>
+    <li><a href="">About</a></li>  
+    <li><a href="">Contact</a></li>
+    </ol>
     <hr>
     <h3>My name is Sarvani. I am a web developer</h3>
     <hr>
     <img src="https://picsum.photos/id/237/400">
     <hr>
     <h4>@copyright 2024. All rights reserved</h4>
+
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <h1>Sarvani Hemadri</h1>
+            </div>
+            <div class="box">
+                <ul>
+                   <li><a href="#home">Home</a></li>
+                   <li><a href="#projects">Projects</a></li>
+                   <li><a href="#about">About</a></li> 
+                   <li><a href="#services">Services</a></li> 
+                   <li><a href="#contact">Contact</a></li>
+                </ul>
+                </div>
+        </div>
+
+        <div class="row1" id="home">
+            <div><h1>Sarvani Hemadri</h1><h3>Full Stack Developer</h3></div>
+            <div><img class="imgclass" src="https://picsum.photos/id/6/300/300"></div>
+        </div>
+
+        <div class="row2" id="projects">
+            <div><h1>Projects</h1>
+            <ol>
+                <li>Project 1</li>
+                <br>
+                <li>Project 2</li>
+            </ol>
+        </div>
+        </div>
+
+        <div class="row3" id="about">
+            <div>
+                <h2>About</h2>
+                <p>This is Sarvani and I am learning full Stack development.</p>
+                <br>
+                <h2>Technologies</h2>
+
+            </div>
+        </div>
+        <section>
+        <div class="row4" id="services">
+               <div class="row4h2"> <h2>Services</h2></div>
+                <div class="box1">
+                   <h3> Web Application Development</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur adipisci dolorem a magni laborum temporibus quidem suscipit! Magni ut numquam fuga eaque deserunt inventore error corporis quam, voluptatem minima?</p>
+                </div>
+                <div class="box1">
+                 <h3>Mobile Application Development</h3>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, magnam. Omnis aperiam laboriosam architecto, corrupti cum non asperiores minima est quasi error iusto, rem dolor nobis id cumque deserunt magnam?</p>
+                </div>
+                <div class="box1">
+                  <h3>Backend Development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora neque necessitatibus animi modi ad maiores. Accusamus suscipit ex veritatis nesciunt architecto exercitationem, commodi ut eaque ipsa, ratione saepe voluptas modi.</p>
+                </div>
+        </div>
+    </section>
+
+        <div class="row5" id="contact">
+            <div>
+                <h2>Contact</h2>
+                If any queries please contact Email: sarvani.hemadri@gmail.com
+            </div>
+            
+        </div>
+    
+    </div>
+
+</body>
+
     
 </body>
 </html>
